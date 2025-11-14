@@ -1,5 +1,5 @@
 # 1. 빌드 스테이지
-FROM node:16 AS reactbuild
+FROM node:22.12-alpine AS reactbuild
 WORKDIR /website/frontend
 
 # package.json, package-lock.json 파일 복사 후 패키지 설치
